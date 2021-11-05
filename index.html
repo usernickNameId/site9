@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <h1 class="title">Link pseudo-classes</h1>
+            <a href="https://ddd.com" class="block__first">:visited pseudo-class</a><br>
+            <a href="https://gff.com" class="block__first">:link pseudo-class</a>
+            <h1 class="title">Link pseudo-classes</h1>
+            <a href="#" class="block__second">HOVER pseudo-class</a><br>
+            <a href="#" class="block__third">:active pseudo-class</a><br>
+            <a href="#" class="block__fourth">:focus pseudo-class</a>
+            <h1 class="title">User interface state pseudo-class</h1>
+            <form action="#" class="form">
+                <span class="form__span">First name:</span>
+                <input type="text" class="form__input" placeholder="MALLCOLM">
+                <span class="form__span">Last name:</span>
+                <input type="text" class="form__input" placeholder="Rayholds">
+                <span class="form__span">I own a firefly-class transport ship:</span>
+                <input type="checkbox" class="form__check">
+            </form>
+            <h1 class="title">Structural and position pseudo-classes</h1>
+            <h5 class="subtitle">:first-child :last-child :only-child</h5>
+            <ul class="list">
+                
+                    <li>This list item is selected by :first-child</li>
+                    <li>This list item is not selected</li>
+                    <a href="#"><li>This listed link is selected by :only-child</li></a>
+                    <li>This list item is selected by :last-child</li>
+                
+            </ul>
+            <h2 class="title">:first-of-type :last-of-type :only-of-type</h2>
+            <div class="block-classes">
+                <p>This paragraph is selected :first-of-type</p>
+                <p>This paragraph is not selected</p>
+                <span>This span is selected :only-of-type</span>
+                <p>This paragraph is selected :last-of-type</p>
+            </div>
+            <h2 class="title">:nth-child(n) :nth-last-child(n)</h2>
+            <div class="block-second">
+                <p>First</p>
+                <p>Second</p>
+                <p>Third</p>
+                <p>Fourth</p>
+                <p>Fiveth</p>
+                <p>Sixth</p>
+            </div>
+            <h2 class="title">:nth-of-type(n) :nth-last-of-type(n)</h2>
+            <div class="block-third">
+                <p>First</p>
+                <p>Second</p>
+                <p>Third</p>
+                <p>Fourth</p>
+                <p>Fiveth</p>
+                <p>Sixth</p>
+            </div>
+            <h2 class="title">Negation pseudo-class</h2>
+            <div class="block-fourth">
+                <a href="#">This is some bold text</a><br>
+                <a href="#">This is some more bold text</a><br>
+                <a href="https://google.com">This is selected is :not(.bold)</a><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

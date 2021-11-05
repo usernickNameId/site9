@@ -1,0 +1,91 @@
+body {
+    background-color: #c5cacd!important;
+}
+input,button:focus {
+    outline: none!important;
+}
+.title {
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.block__first:visited {
+    color: red;
+}
+.block__first:link {
+    color: green;
+}
+.block__second {
+    color:green;
+}
+.block__second:hover {
+    color: blue;
+}
+.block__third {
+    color: green;
+}
+.block__third:active {
+    color: yellow;
+}
+.block__fourth {
+    color: green;
+}
+.block__fourth:focus {
+    color: white;
+}
+.form__check {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+.form__input:focus {
+/*    box-shadow: 0 0 5px #000;*/
+    border: 1px solid #b0b6b6;
+    background-color: #e6e7e9;
+}
+.form {
+    display: flex;
+    align-items: center;
+}
+.subtitle {
+    color: blue;
+}
+.list li:first-child {
+    font-weight: 700;
+}
+.list li:last-child {
+    
+    color: blue;
+}
+.list li:only-child {
+    font-weight: 700;
+    color: green;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.block-classes p {
+    color: #619773;
+}
+.block-classes p:first-of-type {
+    color: green;
+}
+.block-classes p:last-of-type {
+    color: blue;
+}
+.block-classes:only-of-type {
+    color: black; 
+}
+.block-second p:nth-child(1) {
+    color: blue;
+}
+.block-second p:nth-last-child(3) {
+    color: blue;
+}
+.block-third p:nth-of-type(even) {
+    color: red;
+}
+.block-fourth a {
+    color: black;
+}
+.block-fourth a[href^="https://"]:not([href^="#"]) {
+    color: red;
+}
